@@ -5,22 +5,22 @@
 
 
 /* 2. Import fonts (this is fine) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); */
 /* or Great+Vibes, Sacramento, etc. */
 .font-serif { font-family: 'Dancing Script', cursive; } /* override if needed */
 
 
 /* 4. Custom theme variables — place INSIDE or right after the import, but BEFORE any other rules that use them */
-@theme {
-  --color-primary: #1e40af;       /* text-primary, bg-primary, etc. */
+/* @theme {
+  --color-primary: #1e40af;       
   --color-primary-dark: #1e3a8a;
   --color-accent: #f59e0b;
   --color-neutral: #f9fafb;
   --color-dark: #111827;
   --color-gray: #6b7280;
 
-}
+} */
 
 
 /* ──────────────────────────────────────────────── */
