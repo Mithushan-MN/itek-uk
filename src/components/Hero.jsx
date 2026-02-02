@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative min-h-screen bg-cover bg-center bg-no-repeat mt-[-150px]"
       style={{
         // Replace with your own high-res London skyline image (public/images/hero-bg.jpg or external URL)
-        backgroundImage: `url('public/001.jpg')`,
+       backgroundImage: `url(${hero})`,
       }}
     >
       {/* Reddish-dark overlay for text contrast */}
