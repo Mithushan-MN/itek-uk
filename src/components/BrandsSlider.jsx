@@ -2,7 +2,7 @@
 import brand1 from '../assets/brands/betterway.png';
 import brand2 from '../assets/brands/huntsman.png';
 import brand3 from '../assets/brands/sagar.png';
-import brand4 from '../assets/brands/PINK-AUTO.webp';
+import brand4 from '../assets/brands/betterway.png';
 import brand5 from '../assets/brands/vncoe.webp';
 import brand6 from '../assets/brands/sagar.png'; // duplicate – consider removing if not intentional
 
