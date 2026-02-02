@@ -1,0 +1,58 @@
+/* src/index.css  (or main.css / globals.css / whatever you import in main.jsx) */
+
+/* 1. Import Tailwind FIRST */
+@import "tailwindcss";
+
+
+/* 2. Import fonts (this is fine) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* or Great+Vibes, Sacramento, etc. */
+.font-serif { font-family: 'Dancing Script', cursive; } /* override if needed */
+
+
+/* 4. Custom theme variables — place INSIDE or right after the import, but BEFORE any other rules that use them */
+@theme {
+  --color-primary: #1e40af;       /* text-primary, bg-primary, etc. */
+  --color-primary-dark: #1e3a8a;
+  --color-accent: #f59e0b;
+  --color-neutral: #f9fafb;
+  --color-dark: #111827;
+  --color-gray: #6b7280;
+
+}
+
+
+/* ──────────────────────────────────────────────── */
+/*   ADD THE INFINITE SLIDER ANIMATION HERE         */
+/* ──────────────────────────────────────────────── */
+
+/* Define custom keyframes */
+@keyframes slideLeft {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-55%); }   /* -100%/3 */
+}
+
+/* Create utility class for the animation */
+.animate-slide-left-infinite {
+  animation: slideLeft 10s linear infinite;   /* 30s = speed – make 20s for faster, 40s for slower */
+}
+
+/* Optional: pause animation on hover */
+.group:hover .animate-slide-left-infinite {
+  animation-play-state: paused;
+}
+
+/* Optional: reverse direction (right to left) if you ever want it */
+.animate-slide-right-infinite {
+  animation: slideRight 30s linear infinite;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
