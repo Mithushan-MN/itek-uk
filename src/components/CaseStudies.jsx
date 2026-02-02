@@ -66,7 +66,7 @@ export default function CaseStudies() {
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
 
           {/* LEFT */}
-          <div className="lg:sticky lg:top-20 lg:h-screen flex flex-col justify-top lg:pr-8">
+          <div className="lg:sticky lg:top-40 lg:h-screen flex flex-col justify-top lg:pr-8">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight text-gray-900 mb-4">
               OUR WORKS<span className="text-gray-400">.</span>
             </h2>

@@ -14,6 +14,7 @@ import Footer from './components/Footer'
 import PartnersSection from './components/PartnersSection'
 import ContactCTA from './components/ContactCTA'
 import FaqSection from './components/FaqSection'
+import Seo from './components/seo/Seo'
 // Import others: About, Sectors, Blog (placeholder for Blog)
 
 function Home() {
@@ -41,6 +42,8 @@ function App() {
         <Route path="/services" element={<Services />} /> {/* Or full pages if needed */}
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/services/seo" element={<Seo />} />
+
         {/* Add routes for sectors, blog */}
       </Routes>
       <ContactCTA/>
