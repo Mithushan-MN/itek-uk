@@ -5,6 +5,9 @@ import SeoServicesSection from './SeoServicesSection'
 import SeoProcessSection from './SeoProcessSection'
 import SeoCtaSection from './SeoCtaSection'
 import SeoBrandsSection from './SeoBrandsSection'
+import SeoWhyChooseSection from './SeoWhyChooseSection'
+import SeoSpecialtiesSection from './SeoSpecialtiesSection'
+import SeoTestimonialsSection from './SeoTestimonialsSection'
 
 const Seo = () => {
   return (
@@ -15,6 +18,9 @@ const Seo = () => {
         <SeoProcessSection/>
         <SeoCtaSection/>
         <SeoBrandsSection/>
+        <SeoWhyChooseSection/>
+        <SeoSpecialtiesSection/>
+        <SeoTestimonialsSection/>
     </div>
   )
 }

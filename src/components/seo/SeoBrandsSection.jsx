@@ -12,14 +12,14 @@ export default function SeoBrandsSection() {
     {
       brand: "Devitt Insurance",
       stat: "292 New Keywords In The Top 10 Positions",
-      image: "/images/devitt-insurance-hands-money.jpg", // replace with real image
+      image: seobrand, // replace with real image
       alt: "Devitt Insurance results with keyword rankings",
-      link: "https://www.devittinsurance.com/", // ← replace with your actual case study URL
+      link: "https://www.crosstown.co.uk/", // ← replace with your actual case study URL
     },
     {
       brand: "Ocean Florida",
       stat: "Over 25,000 Extra Organic Conversions",
-      image: "/images/ocean-florida-couple-selfie.jpg", // replace with real image
+      image: seobrand, // replace with real image
       alt: "Ocean Florida couple enjoying organic traffic success",
       link: "https://www.ocean-florida.co.uk/", // ← replace with your actual case study URL
     },

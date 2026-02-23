@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="p-3 bg-gray-100 backdrop-blur-lg rounded-full shadow-xl shadow-black/20 hover:shadow-2xl transition-shadow duration-300">
+          <div className="p-4 bg-gray-100/30 backdrop-blur-lg rounded-full shadow-xl shadow-black/20 hover:shadow-2xl transition-shadow duration-300">
             <img src={logo} alt="iTek Solutions UK" className="w-40 sm:w-48 md:w-56 h-auto" />
           </div>
 

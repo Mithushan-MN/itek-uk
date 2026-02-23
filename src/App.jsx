@@ -15,12 +15,14 @@ import PartnersSection from './components/PartnersSection'
 import ContactCTA from './components/ContactCTA'
 import FaqSection from './components/FaqSection'
 import Seo from './components/seo/Seo'
+import Hero2 from './components/Hero2'
 // Import others: About, Sectors, Blog (placeholder for Blog)
 
 function Home() {
   return (
     <>
       <Hero />
+      <Hero2/>
       <BrandsSlider />
       <ServicesOverview/>
       <AboutUs/>
