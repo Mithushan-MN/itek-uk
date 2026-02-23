@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 
 import googlePartner from '../assets/partners/google-partner.webp';
 import googleRating from '../assets/partners/google-partner.webp';
-import theDrum from '../assets/partners/google-partner.webp';
-import hubspotCertified from '../assets/partners/google-partner.webp';
-import forbesAgency from '../assets/partners/google-partner.webp';
-import semrushCertified from '../assets/partners/google-partner.webp';
-import metaBusiness from '../assets/partners/google-partner.webp';
+import facebook from '../assets/partners/facebook.png';
+import linkedin from '../assets/partners/linkedin.png';
+import microsoft from '../assets/partners/microsoft.png';
+import youtube from '../assets/partners/youtube.png';
+import semrush from '../assets/partners/semrush.png';
 
 const partners = [
   { name: "Google Partner", image: googlePartner },
-  { name: "Google Rating 5.0 ★★★★★", image: googleRating },
-  { name: "The Drum Recommended", image: theDrum },
-  { name: "HubSpot Certified Partner", image: hubspotCertified },
-  { name: "Forbes Agency Council Official Member 2026", image: forbesAgency },
-  { name: "Semrush Certified Agency Partner", image: semrushCertified },
-  { name: "Meta Business Partner", image: metaBusiness },
+  // { name: "Google Rating 5.0 ★★★★★", image: googleRating },
+  { name: "The Drum Recommended", image: facebook },
+  { name: "HubSpot Certified Partner", image: linkedin },
+  { name: "Forbes Agency Council Official Member 2026", image: microsoft },
+  { name: "Semrush Certified Agency Partner", image: youtube },
+  { name: "Meta Business Partner", image: semrush },
 ];
 
 export default function PartnersSection() {
@@ -30,7 +30,7 @@ export default function PartnersSection() {
 
         {/* Responsive layout */}
         <div className="overflow-x-auto scrollbar-hide pb-4">
-          <div className="flex flex-nowrap lg:grid lg:grid-cols-7 gap-4 sm:gap-6 md:gap-8 lg:gap-10 items-center justify-start lg:justify-center">
+          <div className="flex flex-nowrap lg:grid lg:grid-cols-6 gap-4 sm:gap-6 md:gap-8 lg:gap-10 items-center justify-start lg:justify-center">
             {partners.map((partner) => (
               <motion.div
                 key={partner.name}

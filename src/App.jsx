@@ -16,6 +16,7 @@ import ContactCTA from './components/ContactCTA'
 import FaqSection from './components/FaqSection'
 import Seo from './components/seo/Seo'
 import Hero2 from './components/Hero2'
+import Aboutus from './components/pages/Aboutus'
 // Import others: About, Sectors, Blog (placeholder for Blog)
 
 function Home() {
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} /> {/* Or full pages if needed */}
+        <Route path="/about" element={<Aboutus />} /> 
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services/seo" element={<Seo />} />
